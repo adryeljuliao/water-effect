@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.background {
+  position: absolute;
+  background-image: url('assets/airplane.jpg');
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+
+.background .water {
+  position: absolute;
+  background-image: url('assets/airplanemask.png');
+  background-size: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  filter: url('#turbulence')
+}
